@@ -1,0 +1,57 @@
+.about{
+  background-color: $color-background-grey;
+}
+.about__inner{
+  padding-top: 50px;
+  @include wrapper;
+  @include row-flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 60px;
+}
+
+.about__description{
+  @include col;
+  @include size(4.5);
+  margin-left: 85px;
+}
+
+.about__video{
+  @include col;
+  @include size(5);
+  margin-right: 5px;
+  video{
+    max-width: 400px;
+    border-radius: 5px;
+  }
+}
+
+.about__title{
+  font-size: 24px;
+  line-height: 20px;
+}
+
+.about__text{
+  margin-top: 18px;
+  span{
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+.about__list{
+  margin-top: 15px;
+  margin-left: 15px;
+  padding-left: 15px;
+  li{
+    line-height: 24px;
+    position: relative;
+    &:before{
+      content: url("../img/bullet.png");
+      position: absolute;
+      top: 2px;
+      transform: scale(.8);
+      left: -18px;
+    }
+  }
+}

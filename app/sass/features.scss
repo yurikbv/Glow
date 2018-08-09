@@ -1,0 +1,36 @@
+.features{
+  background-color: #fff;
+}
+
+.features__inner{
+  padding-top: 5px;
+  @include wrapper;
+  @include row-flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-bottom: 30px;
+}
+
+.features__blocks{
+  @include col;
+  @include size(2.8);
+}
+
+.features__item{
+  padding-top: 35px;
+  padding-left: 10px;
+}
+
+.phone {
+  @include col;
+  @include size(3.2);
+  margin-top: -240px;
+}
+
+.features__title{
+  font-size: 18px;
+}
+
+.features__text{
+  margin-top: 9px;
+}
