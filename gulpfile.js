@@ -106,6 +106,9 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 		'app/fonts/!**/!*'
 		]).pipe(gulp.dest('dist/fonts'));
 
+	let buildVideo = gulp.src([
+    'app/video/*.*'
+  ]).pipe(gulp.dest('dist/video'))
 });
 
 gulp.task('deploy', function() {

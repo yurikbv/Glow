@@ -4,25 +4,42 @@
 .about__inner{
   padding-top: 50px;
   @include wrapper;
+  padding-bottom: 60px;
+}
+
+.about__block{
   @include row-flex;
   justify-content: space-around;
   align-items: flex-start;
-  padding-bottom: 60px;
 }
 
 .about__description{
   @include col;
   @include size(4.5);
+  @include size-lg(6);
+  @include size-sm(12);
+  @include sm(text-align,center);
   margin-left: 85px;
+  @include lg(margin-left,0);
 }
 
 .about__video{
   @include col;
   @include size(5);
+  @include size-lg(6);
+  @include size-sm(12);
   margin-right: 5px;
+  @include lg(text-align,right);
+  @include sm-block{
+    text-align: center;
+    margin-top: 15px;
+  };
   video{
     max-width: 400px;
-    border-radius: 5px;
+    border-radius: 8px;
+    @include md-block{
+      max-width: 100%;
+    }
   }
 }
 
@@ -43,6 +60,7 @@
   margin-top: 15px;
   margin-left: 15px;
   padding-left: 15px;
+  @include sm(text-align,left);
   li{
     line-height: 24px;
     position: relative;

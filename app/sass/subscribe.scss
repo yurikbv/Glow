@@ -1,0 +1,54 @@
+.subscribe{
+  text-align: center;
+  background: url("../img/footer.jpg") no-repeat gray;
+  background-size: cover;
+}
+
+.subscribe__inner{
+  @include wrapper;
+  padding-bottom: 50px;
+}
+
+.subscribe__title{
+  font-size: 24px;
+  padding-top: 35px;
+  color: #000000;
+}
+
+.subscribe__form{
+  margin-top: 20px;
+}
+
+.subscribe__email,.subscribe__button{
+  padding: 20px;
+  border: none;
+  font-family: "MyriadPro",sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.subscribe__email{
+  background-color: rgba(#000000,.65);
+  width: 260px;
+  @include xs-block{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+  };
+}
+
+.subscribe__email::placeholder{
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.subscribe__button {
+  background-color: #e74c3c;
+  @include xs-block{
+    box-sizing: border-box;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+  };
+}

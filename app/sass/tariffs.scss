@@ -1,0 +1,70 @@
+.tariffs{
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tariffs__item{
+  margin: 0 2px -50px;
+  @include size(2.7);
+  @include size-lg(3);
+  @include size-sm(6);
+  @include sm(margin-bottom,5px);
+  @include size-xs(10);
+}
+
+.tariffs__name{
+  color: #fefefe;
+  font-size: 20px;
+  padding: 5px 0;
+  background-color: #322e2e;
+}
+
+.tariffs_price{
+  font-family: "Novecentowide",sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  color: $color-bold;
+  sup{
+    font-size: 20px;
+  }
+}
+
+.tariffs__features{
+  padding: 0 20px;
+  li{
+    border-top: 1px solid #c2c2c2;
+    padding: 6px 0;
+  }
+}
+
+.tariffs__purchase{
+  background-color: #322e2e;
+  padding: 16px 0;
+  button{
+    padding: 8px 25px;
+    font-family: "Myriad Pro",sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(white,.15);
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    &:hover{
+      transition: all 0.2s linear;
+      color: $color-default;
+      background-color: rgba(white,1);
+    }
+  }
+}
+
+.tariffs__item--deluxe{
+  @include sm(order,4);
+  .tariffs__name,.tariffs__purchase{
+    background-color: #e74c3c;
+  }
+}

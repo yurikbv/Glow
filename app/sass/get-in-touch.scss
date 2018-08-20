@@ -1,0 +1,41 @@
+.get-in-touch{
+  background-color: #fff;
+  text-align: center;
+}
+
+.get-in-touch__inner{
+  @include wrapper;
+  padding-bottom: 45px;
+}
+
+.get-in-touch__title{
+  font-size: 24px;
+  color: #000000;
+  margin-top: 35px;
+}
+
+.get-in-touch__text{
+  margin-top: 7px;
+}
+
+.get-in-touch__socials{
+  margin-top: 18px;
+}
+.get-in-touch__item{
+  display: inline-block;
+}
+.get-in-touch__link{
+  box-sizing: border-box;
+  background-color: #c5c5c5;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px;
+  transition: all .2s linear;
+  &:hover{
+    background-color: #e74c3c;
+    transition: all .2s linear;
+  }
+}

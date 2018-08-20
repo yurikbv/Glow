@@ -49,34 +49,36 @@
 <main>
   <section class="features">
     <div class="features__inner">
-      <div class="features__blocks">
-        <div class="features__item">
-          <h2 class="features__title">First Great Feature</h2>
-          <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit
-            vitae nulla molestie eu.
+      <div class="features__block">
+        <div class="features__blocks">
+          <div class="features__item">
+            <h2 class="features__title">First Great Feature</h2>
+            <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit
+              vitae nulla molestie eu.
+            </div>
+          </div>
+          <div class="features__item">
+            <h2 class="features__title">Second Great Feature</h2>
+            <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit
+              vitae nulla molestie eu.
+            </div>
           </div>
         </div>
-        <div class="features__item">
-          <h2 class="features__title">Second Great Feature</h2>
-          <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit
-            vitae nulla molestie eu.
-          </div>
-        </div>
-      </div>
 
-      <div class="phone"><img src="img/iphone.png" alt="phone" class="phone__image"></div>
+        <div class="phone"><img src="img/iphone.png" alt="phone" class="phone__image"></div>
 
-      <div class="features__blocks">
-        <div class="features__item">
-          <h2 class="features__title">Third Great Feature</h2>
-          <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit
-            vitae nulla molestie eu.
+        <div class="features__blocks">
+          <div class="features__item">
+            <h2 class="features__title">Third Great Feature</h2>
+            <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit
+              vitae nulla molestie eu.
+            </div>
           </div>
-        </div>
-        <div class="features__item">
-          <h2 class="features__title">Fourth Great Feature</h2>
-          <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit
-            vitae nulla molestie eu.
+          <div class="features__item">
+            <h2 class="features__title">Fourth Great Feature</h2>
+            <div class="features__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit
+              vitae nulla molestie eu.
+            </div>
           </div>
         </div>
       </div>
@@ -85,19 +87,21 @@
 
   <section class="about">
     <div class="about__inner">
-      <div class="about__description">
-        <h2 class="about__title">Whats Glow all About?</h2>
-        <div class="about__text">
-          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. </span>
-          <span>Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</span>
+      <div class="about__block">
+        <div class="about__description">
+          <h2 class="about__title">Whats Glow all About?</h2>
+          <div class="about__text">
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. </span>
+            <span>Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</span>
+          </div>
+          <ul class="about__list">
+            <li class="about__item">Lorem ipsum dolor sit amet</li>
+            <li class="about__item">Lorem ipsum dolor sit amet consectetur elt</li>
+          </ul>
         </div>
-        <ul class="about__list">
-          <li class="about__item">Lorem ipsum dolor sit amet</li>
-          <li class="about__item">Lorem ipsum dolor sit amet consectetur elt</li>
-        </ul>
-      </div>
-      <div class="about__video">
-        <video src="video/Beautiful%20Sunset%20and%20October%20Sky%20-%20WOW!.WEBM" controls></video>
+        <div class="about__video">
+          <video src="video/Beautiful%20Sunset%20and%20October%20Sky%20-%20WOW!.WEBM" controls></video>
+        </div>
       </div>
     </div>
   </section>
@@ -142,18 +146,146 @@
 
   <section class="price">
     <div class="price__inner">
-      <h2 class="price__title"></h2>
-      <div class="price__about"></div>
-      <div class="price__block">
-
+      <h2 class="price__title">Pricing Plans</h2>
+      <div class="price__about">Lorem ipsum dolor sit amet, pro aeterno adipisci ex, pro no iriure accusam. Eros admodum intellegat ex mea, mei wisi nullam ne, qui cu aliquid nominavi. Est habemus maiestatis ut. Vim quod elitr interesset ea.</div>
+      <div class="price__block tariffs">
+        <div class="tariffs__item">
+          <h2 class="tariffs__name">Basic</h2>
+          <strong class="tariffs_price">$19 <sup>99</sup></strong>
+          <ul class="tariffs__features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <li>Feature 4</li>
+            <li>Feature 5</li>
+          </ul>
+          <div class="tariffs__purchase">
+            <button>Purchase</button>
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <h2 class="tariffs__name">Standard</h2>
+          <strong class="tariffs_price">$39 <sup>99</sup></strong>
+          <ul class="tariffs__features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <li>Feature 4</li>
+            <li>Feature 5</li>
+          </ul>
+          <div class="tariffs__purchase">
+            <button>Purchase</button>
+          </div>
+        </div>
+        <div class="tariffs__item tariffs__item--deluxe">
+          <h2 class="tariffs__name">Deluxe</h2>
+          <strong class="tariffs_price">$59 <sup>99</sup></strong>
+          <ul class="tariffs__features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <li>Feature 4</li>
+            <li>Feature 5</li>
+            <li>Feature 6</li>
+          </ul>
+          <div class="tariffs__purchase">
+            <button>Purchase</button>
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <h2 class="tariffs__name">Unlimited</h2>
+          <strong class="tariffs_price">$79 <sup>99</sup></strong>
+          <ul class="tariffs__features">
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+            <li>Feature 4</li>
+            <li>Feature 5</li>
+          </ul>
+          <div class="tariffs__purchase">
+            <button>Purchase</button>
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
+  <section class="testimonials">
+    <div class="testimonials__inner">
+      <div class="testimonials__slider">
+        <div class="testimonials__text testimonials__text--show">
+          <cite>“Glow is one of the most complete app packages I have ever come across. <br>
+          I would highly reccomend it to anyone!”
+          </cite>
+          <span class="testimonials__author">Steve Klassen</span>
+        </div>
+        <div class="testimonials__text">
+          <cite>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at,
+          consequuntur culpa cum delectus ducimus error illum itaque maiores nobis non nostrum odio quas
+          quasi qui quo sint sit veniam."</cite>
+          <span class="testimonials__author">Lorem ipsum.</span>
+        </div>
+        <div class="testimonials__text">
+          <cite>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          eius incidunt iste magnam nisi officiis quibusdam tempora tempore voluptate, voluptatum!"</cite>
+          <span class="testimonials__author">Lorem ipsum dolor sit.</span>
+        </div>
+        <div class="testimonials__dots">
+          <button class="testimonials__dot testimonials__dot--active"></button>
+          <button class="testimonials__dot"></button>
+          <button class="testimonials__dot"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="subscribe">
+    <div class="subscribe__inner">
+      <h2 class="subscribe__title">Subscribe to Email Newsletter</h2>
+      <form action="" class="subscribe__form" method="post">
+        <input type="email" placeholder="Enter Email Address ..." class="subscribe__email">
+        <button type="submit" class="subscribe__button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="get-in-touch">
+    <div class="get-in-touch__inner">
+      <h2 class="get-in-touch__title">Say Hi & Get in Touch</h2>
+      <div class="get-in-touch__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.</div>
+      <ul class="get-in-touch__socials">
+        <li class="get-in-touch__item"><a href="" class="get-in-touch__link">
+          <img src="img/icon-twitter.svg" alt="icon-twitter" class="get-in-touch__image"></a>
+        </li>
+        <li class="get-in-touch__item"><a href="" class="get-in-touch__link">
+          <img src="img/icon-facebook.svg" alt="icon-facebook" class="get-in-touch__image"></a>
+        </li>
+        <li class="get-in-touch__item"><a href="" class="get-in-touch__link">
+          <img src="img/icon-pinterest.svg" alt="icon-pinterest" class="get-in-touch__image"></a>
+        </li>
+        <li class="get-in-touch__item"><a href="" class="get-in-touch__link">
+          <img src="img/icon-google-plus.svg" alt="icon-google-plus" class="get-in-touch__image"></a>
+        </li>
+        <li class="get-in-touch__item"><a href="" class="get-in-touch__link">
+          <img src="img/icon-linkedin-logo.svg" alt="icon-linkedin" class="get-in-touch__image"></a>
+        </li>
+        <li class="get-in-touch__item"><a href="" class="get-in-touch__link">
+          <img src="img/icon-youtube-logo.svg" alt="icon-youtube" class="get-in-touch__image"></a>
+        </li>
+      </ul>
     </div>
   </section>
 </main>
 <footer>
-
+  <ul class="menu">
+    <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+    <li class="menu__item"><a href="" class="menu__link">Download</a></li>
+    <li class="menu__item"><a href="" class="menu__link">Press</a></li>
+    <li class="menu__item"><a href="" class="menu__link">Email</a></li>
+    <li class="menu__item"><a href="" class="menu__link">Support</a></li>
+    <li class="menu__item"><a href="" class="menu__link">Privacy Policy</a></li>
+  </ul>
 </footer>
-<!--<script src="js/scripts.min.js"></script>-->
+<script src="js/scripts.min.js"></script>
 
 </body>
 </html>

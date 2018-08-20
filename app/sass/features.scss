@@ -5,25 +5,37 @@
 .features__inner{
   padding-top: 5px;
   @include wrapper;
+  padding-bottom: 30px;
+}
+
+.features__block{
   @include row-flex;
   justify-content: center;
   align-items: flex-start;
-  padding-bottom: 30px;
 }
 
 .features__blocks{
   @include col;
   @include size(2.8);
+  @include size-lg(4);
+  @include size-md(4.4);
+  @include size-xs(12);
+  @include sm(text-align,center)
 }
 
 .features__item{
   padding-top: 35px;
   padding-left: 10px;
+  @include sm(padding-top,15px)
 }
 
 .phone {
   @include col;
   @include size(3.2);
+  @include size-xs(4);
+  @include xs-block{
+    margin-top: -470px;
+  }
   margin-top: -240px;
 }
 

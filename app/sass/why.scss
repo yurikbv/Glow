@@ -28,11 +28,14 @@
   position: relative;
   @include col-padding;
   @include size(3.2);
+  @include size-lg(4);
+  @include size-sm(6);
+  @include size-xs(12);
   padding-bottom: 45px;
   &:after,&:before{
     content: '';
     position: absolute;
-    background-color: $color-default;
+    background-color: #e3e3e3;
   }
   &:after{
     width: 1px;
